@@ -88,6 +88,12 @@ header {
 	transform: scale(0);
 }
 
+.burger._active .header__icon span,
+.burger._active .header__icon::after,
+.burger._active .header__icon::before {
+	background-color: white;
+}
+
 .burger._active .header__icon:before {
 	top: 50%;
 	transform: translate(0px, -50%) rotate(-45deg);

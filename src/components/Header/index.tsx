@@ -11,6 +11,7 @@ import viber_icon from '../../assets/viber_icon.svg'
 import chat_icon from '../../assets/chat_icon.svg'
 import cart from '../../assets/cart.svg'
 import './Header.scss'
+import { Menu } from './Menu'
 
 export const Header: React.FC = () => {
 	const [isMenuOpen, setMenuOpen] = React.useState(false)
@@ -149,6 +150,7 @@ export const Header: React.FC = () => {
 				</div>
 			</div>
 
+			<Menu isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
 			{isCartOpen && <Cart setCartOpen={setCartOpen} />}
 		</header>
 	)
