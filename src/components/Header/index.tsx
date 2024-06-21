@@ -19,8 +19,8 @@ export const Header: React.FC = () => {
 	return (
 		<header>
 			{/* Top header */}
-			<div className='top_header 3xl:py-6 xl:py-4 lg:py-3 py-2'>
-				<div className='container'>
+			<div className='top_header bg-[#defaff] relative font-light 3xl:py-6 xl:py-4 lg:py-3 py-2'>
+				<div className='header__container flex items-center justify-between'>
 					{/* Burger */}
 					<div
 						className={`burger ${isMenuOpen && '_active'} lg:hidden block`}
@@ -80,7 +80,7 @@ export const Header: React.FC = () => {
 						<div className='mb-2 text-center'>
 							{t(TranslationKeys.CONNECTION)}
 						</div>
-						<ul className='flex flex-col gap-1 connection_options font-medium'>
+						<ul className='flex flex-col gap-1 font-medium'>
 							<li className='flex items-center gap-4'>
 								<span>
 									<img src={viber_icon} alt='viber_icon' />
@@ -88,14 +88,14 @@ export const Header: React.FC = () => {
 								<span>Viber</span>
 							</li>
 
-							<li>
+							<li className='flex items-center gap-4'>
 								<span>
 									<img src={telegram_icon} alt='telegram_icon' />
 								</span>
 								<span>Telegram</span>
 							</li>
 
-							<li>
+							<li className='flex items-center gap-4'>
 								<span>
 									<img src={chat_icon} alt='chat_icon' />
 								</span>
@@ -121,8 +121,8 @@ export const Header: React.FC = () => {
 			</div>
 
 			{/* Bottom header */}
-			<div className='bottom_header lg:block hidden'>
-				<div className='container flex items-center justify-between 2xl:text-lg xl:text-base lg:text-sm'>
+			<div className='bottom_header bg-white lg:block hidden'>
+				<div className='header__container flex items-center justify-between 2xl:text-lg xl:text-base lg:text-sm'>
 					<div>
 						<ul className='flex gap-10'>
 							<li>Item</li>

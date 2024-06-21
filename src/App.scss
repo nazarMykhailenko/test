@@ -1,7 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,300,regular,500,700);
 
+body,
+#root,
+.wrapper {
+	min-height: 100vh;
+}
+
 body {
 	font-size: 16px;
 	overflow-x: hidden;
 	font-family: 'Roboto';
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
 }
