@@ -21,6 +21,8 @@ export enum TranslationKeys {
 	SPEED_SUPPLY = 'speed_supply',
 	OWN_PRODUCTION = 'own_production',
 	PRICES = 'prices',
+	CLOTHES = 'clothes',
+	SHOES = 'shoes',
 }
 export enum LanguageCodes {
 	UA = 'ua',
@@ -50,6 +52,8 @@ const resources = {
 			[TranslationKeys.SPEED_SUPPLY]: 'Швидке постачання продукції',
 			[TranslationKeys.OWN_PRODUCTION]: 'Власне виробництво',
 			[TranslationKeys.PRICES]: 'Адекватні ціни',
+			[TranslationKeys.CLOTHES]: 'Одяг',
+			[TranslationKeys.SHOES]: 'Взуття',
 		},
 	},
 	[LanguageCodes.RU]: {
@@ -74,6 +78,8 @@ const resources = {
 			[TranslationKeys.SPEED_SUPPLY]: 'Быстрая поставка продукции',
 			[TranslationKeys.OWN_PRODUCTION]: 'Собственное производство',
 			[TranslationKeys.PRICES]: 'Адекватные цены',
+			[TranslationKeys.CLOTHES]: 'Одежда',
+			[TranslationKeys.SHOES]: 'Обувь',
 		},
 	},
 }

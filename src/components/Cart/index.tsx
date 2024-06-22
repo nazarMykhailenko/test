@@ -13,7 +13,7 @@ export const Cart: React.FC<ICartProps> = ({ setCartOpen }) => {
 	const { t } = useTranslation()
 
 	return (
-		<div className='fixed top-0 bottom-0 right-0 left-0 h-screen w-screen bg-black bg-opacity-20 flex items-center justify-center'>
+		<div className='fixed top-0 bottom-0 right-0 left-0 h-screen w-screen bg-black bg-opacity-30 flex items-center justify-center z-[3]'>
 			<div
 				className={`sm:translate-y-0 -translate-y-[12%] overflow-y-scroll relative max-h-[60vh] lg:w-7/12 w-11/12 pt-7 md:pb-24 xl:pb-18 lg:10 pb-8  px-4 bg-white rounded-2xl`}
 				// bg-[#fafafa] if cart is not empty
