@@ -14,6 +14,9 @@ export enum TranslationKeys {
 	MAKE_AN_ORDER = 'make_an_order',
 	PAY_OPTIONS = 'pay_options',
 	SUBSCRIBE_TELEGRAM = 'subscribe_telegram',
+	GOODS = 'goods',
+	YOUR_GOODS = 'your_goods',
+	GO_TO_ITEMS = 'go_to_items',
 }
 export enum LanguageCodes {
 	UA = 'ua',
@@ -36,6 +39,9 @@ const resources = {
 			[TranslationKeys.PAY_OPTIONS]: 'Сплачуйте',
 			[TranslationKeys.SUBSCRIBE_TELEGRAM]:
 				'Підписуйтесь на наш Telegram канал',
+			[TranslationKeys.GOODS]: 'Товари',
+			[TranslationKeys.YOUR_GOODS]: 'Тут можуть бути ваші товари',
+			[TranslationKeys.GO_TO_ITEMS]: 'Перейти до каталогу',
 		},
 	},
 	[LanguageCodes.RU]: {
@@ -53,6 +59,9 @@ const resources = {
 			[TranslationKeys.PAY_OPTIONS]: 'Платите',
 			[TranslationKeys.SUBSCRIBE_TELEGRAM]:
 				'Подписывайтесь на наш Telegram канал',
+			[TranslationKeys.GOODS]: 'Товары',
+			[TranslationKeys.YOUR_GOODS]: 'Здесь могут быть ваши товары',
+			[TranslationKeys.GO_TO_ITEMS]: 'Перейти к каталогу',
 		},
 	},
 }
