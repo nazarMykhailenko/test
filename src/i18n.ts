@@ -17,6 +17,10 @@ export enum TranslationKeys {
 	GOODS = 'goods',
 	YOUR_GOODS = 'your_goods',
 	GO_TO_ITEMS = 'go_to_items',
+	QUALITY = 'quality',
+	SPEED_SUPPLY = 'speed_supply',
+	OWN_PRODUCTION = 'own_production',
+	PRICES = 'prices',
 }
 export enum LanguageCodes {
 	UA = 'ua',
@@ -42,6 +46,10 @@ const resources = {
 			[TranslationKeys.GOODS]: 'Товари',
 			[TranslationKeys.YOUR_GOODS]: 'Тут можуть бути ваші товари',
 			[TranslationKeys.GO_TO_ITEMS]: 'Перейти до каталогу',
+			[TranslationKeys.QUALITY]: 'Висока якість',
+			[TranslationKeys.SPEED_SUPPLY]: 'Швидке постачання продукції',
+			[TranslationKeys.OWN_PRODUCTION]: 'Власне виробництво',
+			[TranslationKeys.PRICES]: 'Адекватні ціни',
 		},
 	},
 	[LanguageCodes.RU]: {
@@ -62,6 +70,10 @@ const resources = {
 			[TranslationKeys.GOODS]: 'Товары',
 			[TranslationKeys.YOUR_GOODS]: 'Здесь могут быть ваши товары',
 			[TranslationKeys.GO_TO_ITEMS]: 'Перейти к каталогу',
+			[TranslationKeys.QUALITY]: 'Высокое качество',
+			[TranslationKeys.SPEED_SUPPLY]: 'Быстрая поставка продукции',
+			[TranslationKeys.OWN_PRODUCTION]: 'Собственное производство',
+			[TranslationKeys.PRICES]: 'Адекватные цены',
 		},
 	},
 }

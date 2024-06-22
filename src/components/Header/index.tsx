@@ -47,7 +47,7 @@ export const Header: React.FC = () => {
 					</div>
 
 					{/* Info */}
-					<div className='flex items-center 3xl:gap-32 md:gap-20 xl:gap-10 lg:gap-5 2xl:text-lg xl:text-base lg:text-sm sm:text-xs text-[10px]  lg:border-l-2 lg:border-r-2 border-white 3xl:px-10 md:px-8 xl:px-6 lg:px-4'>
+					<div className='flex items-center 3xl:gap-32 md:gap-20 xl:gap-10 lg:gap-5 2xl:text-lg xl:text-base lg:text-sm sm:text-xs text-[10px] lg:border-l-2 lg:border-r-2 border-white 3xl:px-10 md:px-8 xl:px-6 lg:px-4'>
 						<div className='flex-col items-center lg:flex hidden'>
 							<div className='flex items-center self-center text-center'>
 								<img src={tick} alt='tick' />
