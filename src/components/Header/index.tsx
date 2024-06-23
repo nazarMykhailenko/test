@@ -126,10 +126,10 @@ export const Header: React.FC = () => {
 				<div className='header__container flex items-center justify-between 2xl:text-lg xl:text-base lg:text-sm'>
 					<div>
 						<ul className='flex gap-10'>
-							<li>Item</li>
-							<li>Item</li>
-							<li>Item</li>
-							<li>Item</li>
+							<li className='cursor-pointer'>Item</li>
+							<li className='cursor-pointer'>Item</li>
+							<li className='cursor-pointer'>Item</li>
+							<li className='cursor-pointer'>Item</li>
 						</ul>
 					</div>
 
@@ -151,7 +151,7 @@ export const Header: React.FC = () => {
 			</div>
 
 			<Menu isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
-			{isCartOpen && <Cart setCartOpen={setCartOpen} />}
+			{isCartOpen && <Cart isCartOpen={isCartOpen} setCartOpen={setCartOpen} />}
 		</header>
 	)
 }

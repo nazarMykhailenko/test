@@ -18,7 +18,7 @@ export const Help: React.FC = () => {
 		<div className='help xl:mb-10 lg:mb-8 sm:mb-5 mb-4 2xl:text-lg xl:text-base lg:text-sm sm:text-xs text-[10px]'>
 			<div className='help_container'>
 				<div className='bg-white md:px-14 xl:px-10 px-5 md:py-10 xl:py-8 py-4 rounded-lg shadow-lg flex sm:flex-row flex-col sm:items-end sm:justify-between gap-y-4'>
-					<div className='sm:mr-28'>
+					<div className='sm:mr-20 lg:mr-28'>
 						<div className='xl:text-3xl sm:text-2xl text-xl font-medium'>
 							{t(TranslationKeys.NEED_HELP)}
 						</div>

@@ -12,7 +12,7 @@ export const ProductItem: React.FC = () => {
 		<div className='bg-[#d9d9d9] p-1 rounded-lg'>
 			<Link
 				to='/products/1'
-				className='block bg-white w-full  sm:h-64 h-48 rounded-lg mb-1'
+				className='block bg-white w-full md:h-64 sm:h-56 h-48 rounded-lg mb-1'
 			>
 				{/* <img src="" alt="" /> */}
 			</Link>
