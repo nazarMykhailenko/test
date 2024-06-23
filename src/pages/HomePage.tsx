@@ -3,6 +3,7 @@ import { GoodsDisplay } from '../components/GoodsDisplay'
 import { AdvantagesBlock } from '../components/AdvantagesBlock'
 import { ClothesOrShoes } from '../components/ClothesOrShoes'
 import { Products } from '../components/Products'
+import { Help } from '../components/Help'
 
 export const HomePage: React.FC = () => {
 	return (
@@ -11,6 +12,7 @@ export const HomePage: React.FC = () => {
 			<AdvantagesBlock />
 			<ClothesOrShoes />
 			<Products />
+			<Help />
 		</div>
 	)
 }

@@ -14,11 +14,6 @@ export const GoodsDisplay: React.FC = () => {
 				slidesPerView={1}
 				loop={true}
 				// spaceBetween={50}
-				observer={true}
-				observeParents={true}
-				parallax={true}
-				onSlideChange={() => console.log('slide change')}
-				onSwiper={(swiper) => console.log(swiper)}
 			>
 				<SwiperSlide>
 					<div className='bg-[#d9d9d9] h-full'>

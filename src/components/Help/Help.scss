@@ -1,0 +1,32 @@
+.help {
+	.help_container {
+		max-width: 97rem;
+		margin: 0px auto;
+		padding: 0px 1rem;
+
+		@media (max-width: 1767px) {
+			max-width: 84rem;
+		}
+
+		@media (max-width: 1535px) {
+			max-width: 72rem;
+		}
+
+		@media (max-width: 1314px) {
+			max-width: 64.5rem;
+		}
+
+		@media (max-width: 1199px) {
+			max-width: 54rem;
+		}
+
+		@media (max-width: 1023px) {
+			max-width: 40rem;
+		}
+
+		@media (max-width: 639px) {
+			max-width: 27rem;
+			padding: 0px 0.5rem;
+		}
+	}
+}

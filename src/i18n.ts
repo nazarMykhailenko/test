@@ -25,6 +25,12 @@ export enum TranslationKeys {
 	SHOES = 'shoes',
 	NEW_DROPS = 'new_drops',
 	PRODUCT_NAME = 'product_name',
+	SEND = 'send',
+	NEED_HELP = 'need_help',
+	HELP_TEXT = 'help_text',
+	WILL_RESPOND = 'will_respond',
+	YOUR_NAME = 'your_name',
+	ABOUT_US = 'about_us',
 }
 export enum LanguageCodes {
 	UA = 'ua',
@@ -58,6 +64,13 @@ const resources = {
 			[TranslationKeys.SHOES]: 'Взуття',
 			[TranslationKeys.NEW_DROPS]: 'Нові надходження',
 			[TranslationKeys.PRODUCT_NAME]: 'Назва',
+			[TranslationKeys.SEND]: 'ВІДПРАВИТИ',
+			[TranslationKeys.NEED_HELP]: 'Потрібна допомога?',
+			[TranslationKeys.HELP_TEXT]:
+				'Телефонуйте нам за контактним номером або заповніть форму ',
+			[TranslationKeys.WILL_RESPOND]: 'і ми відповімо на всі ваші запитання',
+			[TranslationKeys.YOUR_NAME]: 'Ваше імʼя',
+			[TranslationKeys.ABOUT_US]: 'Про нас',
 		},
 	},
 	[LanguageCodes.RU]: {
@@ -86,6 +99,13 @@ const resources = {
 			[TranslationKeys.SHOES]: 'Обувь',
 			[TranslationKeys.NEW_DROPS]: 'Новые поступления',
 			[TranslationKeys.PRODUCT_NAME]: 'Название',
+			[TranslationKeys.SEND]: 'ОТПРАВИТЬ',
+			[TranslationKeys.NEED_HELP]: 'Нужна помощь?',
+			[TranslationKeys.HELP_TEXT]:
+				'Звоните нам по контактному номеру или заполните форму ',
+			[TranslationKeys.WILL_RESPOND]: 'и мы ответим на все ваши вопросы',
+			[TranslationKeys.YOUR_NAME]: 'Ваше имя',
+			[TranslationKeys.ABOUT_US]: 'О нас',
 		},
 	},
 }

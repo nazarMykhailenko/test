@@ -7,9 +7,9 @@ import './Products.scss'
 export const Products: React.FC = () => {
 	const { t } = useTranslation()
 	return (
-		<div className='products mb-20'>
+		<div className='products xl:mb-20 lg:mb-16 sm:mb-8 mb-4 2xl:text-lg xl:text-base lg:text-sm sm:text-xs text-[10px]'>
 			<div className='products_container'>
-				<div className='bg-white md:px-14 xl:px-10 px-5 md:py-10 xl:py-8 py-4 rounded-lg'>
+				<div className='bg-white md:px-14 xl:px-10 px-5 md:py-10 xl:py-8 py-4 rounded-lg shadow-lg'>
 					<div className='md:mb-20 xl:mb-14 sm:mb-10 mb-5'>
 						<div className='flex items-center gap-4 sm:mb-7 mb-4'>
 							<div
