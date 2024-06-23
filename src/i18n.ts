@@ -23,6 +23,8 @@ export enum TranslationKeys {
 	PRICES = 'prices',
 	CLOTHES = 'clothes',
 	SHOES = 'shoes',
+	NEW_DROPS = 'new_drops',
+	PRODUCT_NAME = 'product_name',
 }
 export enum LanguageCodes {
 	UA = 'ua',
@@ -54,6 +56,8 @@ const resources = {
 			[TranslationKeys.PRICES]: 'Адекватні ціни',
 			[TranslationKeys.CLOTHES]: 'Одяг',
 			[TranslationKeys.SHOES]: 'Взуття',
+			[TranslationKeys.NEW_DROPS]: 'Нові надходження',
+			[TranslationKeys.PRODUCT_NAME]: 'Назва',
 		},
 	},
 	[LanguageCodes.RU]: {
@@ -80,6 +84,8 @@ const resources = {
 			[TranslationKeys.PRICES]: 'Адекватные цены',
 			[TranslationKeys.CLOTHES]: 'Одежда',
 			[TranslationKeys.SHOES]: 'Обувь',
+			[TranslationKeys.NEW_DROPS]: 'Новые поступления',
+			[TranslationKeys.PRODUCT_NAME]: 'Название',
 		},
 	},
 }
