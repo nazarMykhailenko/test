@@ -15,7 +15,7 @@ export const ProductMap: React.FC = () => {
 	const [bigImgUrl, setBigImageUrl] = React.useState(img)
 	const { t } = useTranslation()
 	return (
-		<div className='w-full bg-white  shadow-lg rounded-lg flex lg:flex-row flex-col lg:pt-2 sm:py-4 py-2'>
+		<div className='w-full bg-white  shadow-lg rounded-lg flex lg:flex-row flex-col lg:pt-2 sm:py-4 py-2 2xl:text-lg xl:text-base lg:text-sm sm:text-xs text-[10px]'>
 			<div className='lg:w-1/2 w-full lg:pl-2 lg:pr-7 sm:px-5 px-2 sm:pb-7 pb-2 lg:border-r-2 border-[#c8e2e7]'>
 				<div className='mb-7 lg:block hidden'>
 					<img
@@ -63,11 +63,11 @@ export const ProductMap: React.FC = () => {
 							</div>
 							<div>{t(TranslationKeys.SIZE)}</div>
 						</div>
-						<div className='flex items-center gap-2 text-base'>
-							<div className='cursor-pointer border border-black p-[2px] text-sm rounded'>
+						<div className='flex items-center gap-2'>
+							<div className='cursor-pointer border border-black p-[2px] rounded'>
 								42-44
 							</div>
-							<div className='cursor-pointer border border-black p-[2px] text-sm rounded'>
+							<div className='cursor-pointer border border-black p-[2px] rounded'>
 								46-48
 							</div>
 						</div>
@@ -80,17 +80,17 @@ export const ProductMap: React.FC = () => {
 							</div>
 							<div>{t(TranslationKeys.COLOR)}</div>
 						</div>
-						<div className='flex items-center gap-2 text-base'>
-							<div className='cursor-pointer border border-black p-[2px] text-sm rounded'>
+						<div className='flex items-center gap-2'>
+							<div className='cursor-pointer border border-black p-[2px] rounded'>
 								Color 1
 							</div>
-							<div className='cursor-pointer border border-black p-[2px] text-sm rounded'>
+							<div className='cursor-pointer border border-black p-[2px] rounded'>
 								Color 2
 							</div>
-							<div className='cursor-pointer border border-black p-[2px] text-sm rounded'>
+							<div className='cursor-pointer border border-black p-[2px] rounded'>
 								Color 3
 							</div>
-							<div className='cursor-pointer border border-black p-[2px] text-sm rounded'>
+							<div className='cursor-pointer border border-black p-[2px] rounded'>
 								Color 4
 							</div>
 						</div>

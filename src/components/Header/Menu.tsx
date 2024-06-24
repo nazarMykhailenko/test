@@ -20,7 +20,11 @@ export const Menu: React.FC<IMenuProps> = ({ isMenuOpen, setMenuOpen }) => {
 	}, [isMenuOpen])
 
 	return (
-		<div className={`menu__body ${isMenuOpen && '_active'} lg:hidden block`}>
+		<div
+			className={`menu__body ${
+				isMenuOpen && '_active'
+			} lg:hidden block 2xl:text-lg xl:text-base lg:text-sm sm:text-xs`}
+		>
 			<div className='w-4/5 h-full bg-[#426f77] rounded-r-[25px]'>
 				<div className='pt-16'>
 					<img
@@ -30,22 +34,22 @@ export const Menu: React.FC<IMenuProps> = ({ isMenuOpen, setMenuOpen }) => {
 					/>
 					<ul className='flex flex-col items-start '>
 						<li className='w-full p-4 [&:not(:last-child)]:border-b border-white'>
-							<a href='#' className='text-white text-lg block hover:underline'>
+							<a href='#' className='text-white block hover:underline'>
 								Item
 							</a>
 						</li>
 						<li className='w-full p-4 [&:not(:last-child)]:border-b border-white'>
-							<a href='#' className='text-white text-lg block hover:underline'>
+							<a href='#' className='text-white block hover:underline'>
 								Item
 							</a>
 						</li>
 						<li className='w-full p-4 [&:not(:last-child)]:border-b border-white'>
-							<a href='#' className='text-white text-lg block hover:underline'>
+							<a href='#' className='text-white block hover:underline'>
 								Item
 							</a>
 						</li>
 						<li className='w-full p-4 [&:not(:last-child)]:border-b border-white'>
-							<a href='#' className='text-white text-lg block hover:underline'>
+							<a href='#' className='text-white block hover:underline'>
 								Item
 							</a>
 						</li>
