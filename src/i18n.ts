@@ -39,6 +39,7 @@ export enum TranslationKeys {
 	DESCRIPTION = 'description',
 	MORE = 'more',
 	MAIN = 'main',
+	LESS = 'less',
 }
 export enum LanguageCodes {
 	UA = 'ua',
@@ -87,6 +88,7 @@ const resources = {
 			[TranslationKeys.DESCRIPTION]: 'Опис',
 			[TranslationKeys.MORE]: 'Більше',
 			[TranslationKeys.MAIN]: 'Головна',
+			[TranslationKeys.LESS]: 'Менше',
 		},
 	},
 	[LanguageCodes.RU]: {
@@ -130,6 +132,7 @@ const resources = {
 			[TranslationKeys.DESCRIPTION]: 'Описание',
 			[TranslationKeys.MORE]: 'Больше',
 			[TranslationKeys.MAIN]: 'Главная',
+			[TranslationKeys.LESS]: 'Меньше',
 		},
 	},
 }
