@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { TranslationKeys } from '../../i18n'
-import { ProductItem } from './ProductItem'
+import { ProductItem } from '../ProductItem'
 import './Products.scss'
 
 export const Products: React.FC = () => {

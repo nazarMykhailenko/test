@@ -31,6 +31,11 @@ export enum TranslationKeys {
 	WILL_RESPOND = 'will_respond',
 	YOUR_NAME = 'your_name',
 	ABOUT_US = 'about_us',
+	AVAILABLE = 'available',
+	RECOMMEND = 'recommend',
+	SIZE = 'size',
+	COLOR = 'color',
+	ADD_TO_CART = 'add_to_cart',
 }
 export enum LanguageCodes {
 	UA = 'ua',
@@ -71,6 +76,11 @@ const resources = {
 			[TranslationKeys.WILL_RESPOND]: 'і ми відповімо на всі ваші запитання',
 			[TranslationKeys.YOUR_NAME]: 'Ваше імʼя',
 			[TranslationKeys.ABOUT_US]: 'Про нас',
+			[TranslationKeys.AVAILABLE]: 'В наявності',
+			[TranslationKeys.RECOMMEND]: 'Рекомендуємо',
+			[TranslationKeys.SIZE]: 'Розмір',
+			[TranslationKeys.COLOR]: 'Колір',
+			[TranslationKeys.ADD_TO_CART]: 'Додати у кошик',
 		},
 	},
 	[LanguageCodes.RU]: {
@@ -106,6 +116,11 @@ const resources = {
 			[TranslationKeys.WILL_RESPOND]: 'и мы ответим на все ваши вопросы',
 			[TranslationKeys.YOUR_NAME]: 'Ваше имя',
 			[TranslationKeys.ABOUT_US]: 'О нас',
+			[TranslationKeys.AVAILABLE]: 'В наличии',
+			[TranslationKeys.RECOMMEND]: 'Рекомендуем',
+			[TranslationKeys.SIZE]: 'Размер',
+			[TranslationKeys.COLOR]: 'Цвет',
+			[TranslationKeys.ADD_TO_CART]: 'Добавить в корзину',
 		},
 	},
 }

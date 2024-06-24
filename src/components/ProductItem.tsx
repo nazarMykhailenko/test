@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { TranslationKeys } from '../../i18n'
-import up_button from '../../assets/up_button.svg'
-import down_button from '../../assets/down_button.svg'
-import little_cart_icon from '../../assets/little_cart_icon.svg'
+import { TranslationKeys } from '../i18n'
+import up_button from '../assets/up_button.svg'
+import down_button from '../assets/down_button.svg'
+import little_cart_icon from '../assets/little_cart_icon.svg'
 
 export const ProductItem: React.FC = () => {
 	const { t } = useTranslation()

@@ -1,6 +1,5 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import { TranslationKeys } from '../../i18n'
 import { LanguageCodes } from '../../i18n'
 import bin from '../../assets/bin.svg'
 import up_button from '../../assets/up_button.svg'
