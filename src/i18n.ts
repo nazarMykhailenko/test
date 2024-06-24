@@ -38,6 +38,7 @@ export enum TranslationKeys {
 	ADD_TO_CART = 'add_to_cart',
 	DESCRIPTION = 'description',
 	MORE = 'more',
+	MAIN = 'main',
 }
 export enum LanguageCodes {
 	UA = 'ua',
@@ -85,6 +86,7 @@ const resources = {
 			[TranslationKeys.ADD_TO_CART]: 'Додати у кошик',
 			[TranslationKeys.DESCRIPTION]: 'Опис',
 			[TranslationKeys.MORE]: 'Більше',
+			[TranslationKeys.MAIN]: 'Головна',
 		},
 	},
 	[LanguageCodes.RU]: {
@@ -127,6 +129,7 @@ const resources = {
 			[TranslationKeys.ADD_TO_CART]: 'Добавить в корзину',
 			[TranslationKeys.DESCRIPTION]: 'Описание',
 			[TranslationKeys.MORE]: 'Больше',
+			[TranslationKeys.MAIN]: 'Главная',
 		},
 	},
 }

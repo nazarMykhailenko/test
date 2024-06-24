@@ -1,19 +1,22 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
+import { TranslationKeys } from '../../i18n'
 import { useParams, Link } from 'react-router-dom'
-import './ProductPage.scss'
 import { ProductMap } from './ProductMap'
 import { Description } from './Description'
 import { Recommendations } from './Recommendations'
+import './ProductPage.scss'
 
 export const ProductPage: React.FC = () => {
 	const { id } = useParams()
+	const { t } = useTranslation()
 
 	return (
 		<div className='grow bg-[#defaff] pt-2'>
 			<div className='product_page_container'>
 				<div className='flex gap-2 font-light mb-2'>
 					<div>
-						<Link to='/'>Main</Link>
+						<Link to='/'>{t(TranslationKeys.MAIN)}</Link>
 					</div>
 					<div>{'>'}</div>
 					<Link to={`/products/${id}`}>Карта товара</Link>
